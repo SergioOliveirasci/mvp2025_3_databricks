@@ -14,6 +14,26 @@ O foco do MVP é demonstrar, de forma prática, a construção de um pipeline **
 O projeto utiliza a arquitetura **Medallion (Bronze, Silver e Gold)**, com persistência em **Delta Lake**, validação de qualidade dos dados e análises orientadas a perguntas de negócio.
 
 ---
+## 🎥 Vídeo de Documentação do Projeto
+
+O projeto conta com um **vídeo de documentação**, no qual são apresentados o contexto do MVP,
+a arquitetura do pipeline, a execução no Databricks e a explicação dos principais resultados obtidos.
+
+👉 Assista ao vídeo completo aqui:  
+https://youtu.be/F18ketjug4A
+
+---
+
+## 🧾 Instalação e Configuração do Databricks
+
+Para fins de transparência técnica e reprodutibilidade, foi incluído no repositório
+um documento em PDF contendo prints do processo de instalação, configuração e
+integração do Databricks Community Edition com o GitHub.
+
+👉 Acesse o PDF de instalação do Databricks aqui:
+/docs/Instalacao_Databricks.pdf
+
+---
 
 ##  Objetivos do Projeto
 
@@ -94,10 +114,12 @@ Foram implementadas verificações de qualidade que incluem:
 ##  Estrutura do Repositório
 
 ```
- mvp2025-3-databricks
- ┣  MVP3_PUCRJ_2025_SERGIOOLIVEIRA.ipynb
- ┣  MVP3_Documentacao_Completa.md
- ┣  README.md
+📦 mvp2025-3-databricks
+ ┣ 📜 MVP3_PUCRJ_2025_SERGIOOLIVEIRA.ipynb
+ ┣ 📜 MVP3_Documentacao_Completa.md
+ ┣ 📜 README.md
+ ┣ 📂 docs
+ ┃ ┗ 📜 Instalacao_Databricks.pdf
 ```
 
 ---
